@@ -1,0 +1,57 @@
+/* style.css */
+
+body {
+    font-family: Arial, sans-serif;
+    padding: 0;
+    background-image: url("../static/smart_home.jpg");
+    background-size: auto;
+    margin: 0;
+  }
+
+  h1 {
+    text-align: center;
+    font-size: 40px;
+    color: #d81818;
+    margin-bottom: 20px;
+  }
+
+  h2 {
+    text-align: center;
+    font-size: 20px;
+    color: #09aa5fef;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  label {
+  
+    display: block;
+    margin-bottom: 5px;
+    color: #030304;
+  }
+
+
+  input[type="text"] {
+    width: 15%;
+    padding: 8px;
+    border: 2px solid #0b0505;
+    border-radius: 3px;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    padding: 8px 20px;
+    background-color: #030304;
+    color: #f7f7fc;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #020202;
+  }
